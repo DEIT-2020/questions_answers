@@ -17,12 +17,3 @@
 * dart包
 [https://pub.dev/](https://pub.dev/)
 
-sever下载以后大量爆红解决办法：
-1下载包
-pub global activate aqueduct
-aqueduct
-pub get 
-2修改引用路径（两种办法）
-import 'package:heroes/heroes.dart';
-（1）把pubspec.yaml里面的name改成heroes（推荐这钟，就不用再一个个文件改引用前面的heroes）
-（2）把前面的heroes改成sever（和pubspec.yaml里面的name后面保持一致）
